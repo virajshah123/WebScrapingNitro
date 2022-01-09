@@ -1,10 +1,8 @@
 import scrapy
-#from scrapy_selenium import SeleniumRequest
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from shutil import which
-#from scrapy_cloudflare_middleware.middlewares import CloudFlareMiddleware
 import time
 from scrapy.selector import Selector
 from selenium.webdriver.common.by import By
